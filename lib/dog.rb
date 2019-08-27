@@ -1,6 +1,6 @@
 class Dog 
-  def name= (DogName)
-    @name = DogName
+  def name= (dogName)
+    @name = dogName
   end
   
   def name 
@@ -9,5 +9,19 @@ class Dog
 end
 
 class Person
-  def name= 
+  def name= (personName)
+    @name = personName
+  end
+  
+  def name
+    @name
+  end
+  
+  def job= (personJob)
+    @job = personJob
+  end
+  
+  def job
+    @job
+  end
 end
