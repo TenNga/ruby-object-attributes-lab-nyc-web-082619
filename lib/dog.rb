@@ -6,6 +6,14 @@ class Dog
   def name 
     @name
   end
+  
+  def bread= (dogBread)
+    @bread = dogBread
+  end
+  
+  def bread
+    @bread
+  end
 end
 
 class Person
